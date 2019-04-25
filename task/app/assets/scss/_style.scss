@@ -1,0 +1,43 @@
+.top-nav {
+    font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    right: 0;
+    z-index: 500;
+    height: 50px;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+
+    .main-nav {
+        position: relative;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    .main-nav-item {
+        display: inline-block;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+
+        a {
+            display: inline-block;
+            height: 50px;
+            white-space: nowrap;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            font-size: 17px;
+            line-height: 50px;
+            font-weight: 400;
+            margin: 0;
+            padding: 0 10px;
+        }
+    }
+}
